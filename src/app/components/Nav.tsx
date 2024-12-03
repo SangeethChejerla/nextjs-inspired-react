@@ -14,7 +14,11 @@ function Nav() {
             About
           </Link>
         </li>
-
+        <li>
+          <Link to="/blog" className="text-white hover:underline">
+            Blog
+          </Link>
+        </li>
         <li>
           <Link to="/getus" className="text-white hover:underline">
             Get Us
