@@ -1,4 +1,4 @@
-import { KeyboardNav } from './components/KeyboardNav';
+import { KeyboardNavbar } from './components/keyboardNavbar';
 
 function IndexPage() {
   return (
@@ -9,7 +9,7 @@ function IndexPage() {
       <p className="mt-4 text-lg text-gray-600">
         This is the home page. Explore our other pages!
       </p>
-      <KeyboardNav />
+      <KeyboardNavbar />
     </div>
   );
 }
